@@ -6,3 +6,9 @@ html, body {
 canvas {
   display: block;
 }
+
+
+.sliders::-webkit-slider-runnable-track {
+  background: green;
+  border-radius: 300px;
+}

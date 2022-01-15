@@ -20,10 +20,12 @@ function setup() {
   pixel_size_slider = createSlider(5,35, pixel_size, 1)
   pixel_size_slider.position(20, 20)
   pixel_size_slider.changed(changePixelSize)
+  pixel_size_slider.addClass("sliders")
 
   view_size_slider = createSlider(10,1000, 200, 10)
   view_size_slider.position(20, 40)
   view_size_slider.changed(changeViewSize)
+  view_size_slider.addClass("sliders")
 }
 
 
