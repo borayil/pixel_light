@@ -47,7 +47,7 @@ function draw() {
       // brightness based on closeness to mouse
      
       let maxDistance = dist(windowWidth, windowHeight, 0, 0)
-      let bright = map(distanceToMouse, 0, maxDistance, 255, 0)
+      let bright = map(distanceToMouse, 0, distance_limit, 255, 0)
       
       fill(r, g, b, bright)
       noStroke();
